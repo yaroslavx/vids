@@ -1,6 +1,6 @@
 {
   "homepage": "http://yaroslavx.github.io/vids",
-  "name": "some-real-project",
+  "name": "vids",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

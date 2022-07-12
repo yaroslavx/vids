@@ -7,14 +7,18 @@
     right: 0;
     top: 0;
     bottom: 0;
+
 }
 
 .container {
     position: relative;
     display: flex;
     height: 100vh;
-    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow: auto;
     align-items: center; 
+    
 }
 
 .container::-webkit-scrollbar {

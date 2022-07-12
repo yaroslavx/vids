@@ -1,0 +1,25 @@
+.hudComponent {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 5;
+    background-color: transparent;
+    height: auto;
+    font-family: SFPro-Regular;
+    font-size: 4.5vh;
+}   
+
+.lnk:link, .lnk:visited, .lnk:hover, .lnk:active {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownContent {
+    display: none;
+    position: fixed;
+    background-color: transparent;
+}
+
+.hudComponent:hover .dropdownContent {
+    display: block;
+}

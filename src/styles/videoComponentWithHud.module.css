@@ -1,0 +1,12 @@
+.vidWithHud {
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}

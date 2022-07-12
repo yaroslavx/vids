@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 1200px;
+    height: 100vh;    
+}
+
+.container {
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+
+}
+
+.canvas {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-400px, -150px);
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 200px;
+    transition: 1.5s ease-out;
+    display: flex;
+}
+
+.video {
+    opacity: 50%;
+    margin: 10px;
+    transition: 1s;
+}
+
+.video:hover {
+    opacity: 100%;
+    -ms-transform: scale(1.45);
+    -webkit-transform: scale(1.45);
+    transform: scale(1.45);
+}
+
+
+
+
+
+
+
+
+
+
+

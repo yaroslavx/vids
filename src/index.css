@@ -1,7 +1,0 @@
-@font-face { 
-    font-family: 'SFPro'; 
-    src: local('SFPro'), url(./fonts/SFPro.woff) format('woff');
-    src: local('SFPro'), url(./fonts/SFPro.woff2) format('woff2');
-    src: local('SFPro'), url(./fonts/SFPro.ttf) format('truetype');
-    src: local('SFPro'), url(./fonts/SFPro.eot) format('embedded-opentype');
-  }

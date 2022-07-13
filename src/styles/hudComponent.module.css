@@ -5,8 +5,10 @@
     z-index: 5;
     background-color: transparent;
     height: auto;
-    font-family: SFPro-Bold, Helvetica bold;
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
     font-size: 4.5vh;
+    -webkit-font-smoothing: antialiased;
 }   
 
 .lnk:link, .lnk:visited, .lnk:hover, .lnk:active {

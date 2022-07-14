@@ -1,0 +1,11 @@
+.slidebutton {
+    color: white;
+    font-size: 55px;
+    cursor: pointer;
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    margin-right: 3vw;
+    padding-bottom: 3vh;
+    /* margin-bottom: 5vh; */
+}

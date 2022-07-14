@@ -9,7 +9,8 @@ export function useHorizontalScroll() {
         if (e.deltaY === 0) return;
         e.preventDefault();
         el.scrollTo({
-          left: el.scrollLeft + e.deltaY,
+          left: el.scrollLeft + e.deltaY * 2,
+          right: el.scrollRight + e.deltaY,
           behavior: "smooth"
         });
       };

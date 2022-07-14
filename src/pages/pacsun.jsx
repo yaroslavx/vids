@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import classes from '../styles/Pages.module.css'
 import HudComponent from '../components/hudComponent';
 import VideoComponentWithHud from '../components/videoComponentWithHud';
+import SlideButton from '../components/UI/buttons/slideButton';
 
 
 export default function Pacsun() {
@@ -9,8 +10,9 @@ export default function Pacsun() {
         <Fragment>
             <div className={classes.hud}><HudComponent/></div>
             <div className={classes.page}>
-                <div className={classes.container}>
+                <div className={classes.container} id="vidContainer">
                     <div className={classes.vid} ><VideoComponentWithHud src={"https://player.vimeo.com/video/576476046?title=0&byline=0&portrait=0&transparent=0&autoplay=1"} width={960} height={540} title={1}/></div>
+                    <SlideButton/>
                     <Fragment><img className={classes.imgs} src={require('../imgs/pcs/pcs1.png')} alt='1'/></Fragment>
                     <Fragment><img className={classes.imgs} src={require('../imgs/pcs/pcs2.png')} alt='2'/></Fragment>
                     <Fragment><img className={classes.imgs} src={require('../imgs/pcs/pcs3.png')} alt='3'/></Fragment>
